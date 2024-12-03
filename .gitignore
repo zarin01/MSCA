@@ -1,0 +1,38 @@
+# Ignore everything
+**
+!wp-content/
+wp-content/**
+!wp-content/themes/
+wp-content/themes/**
+
+# Only include the specific theme (e.g., altitude-pro)
+!wp-content/themes/altitude-pro/
+!wp-content/themes/altitude-pro/**
+
+# Don't track json files from altitude-pro Plugin folder
+wp-content/plugins/altitude-pro/package.json
+wp-content/plugins/altitude-pro/package-lock.json
+
+# Don't track images in the altitude-pro theme folder
+wp-content/themes/altitude-pro/images/
+wp-content/themes/altitude-pro/images/**
+
+# Don't track vendor files in the altitude-pro plugin folder
+wp-content/plugins/altitude-pro/vendor/stripe/stripe-php/.php_cs.dist
+
+# Always include the build script
+!build.sh
+!README.md
+!CHANGELOG.md
+!.gitignore
+
+# Bitbucket Pipeline config
+!bitbucket-pipelines.yml
+
+# Don't track system or node modules files
+node_modules
+.DS_Store
+
+# Ignore plugins and mu-plugins entirely
+wp-content/plugins/**
+wp-content/mu-plugins/**
