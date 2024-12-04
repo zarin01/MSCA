@@ -184,8 +184,25 @@ html:not([data-scroll="0"]) .site-header {
 }
 
 a {
-	color: #0680a2;
-	text-decoration: none;
+	border-bottom-color: rgba(0, 0, 0, 0.5);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-spacing: 0;
+  color: rgb(42, 42, 42);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+  line-height: 28px;
+  opacity: 0.7;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-decoration-color: rgb(42, 42, 42);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  transition: opacity 0.2s ease-in-out;
+  word-break: break-word;
 }
 
 a:focus,
@@ -272,6 +289,12 @@ hr {
 	color: #eee;
 	margin: 1.65em auto;
 }
+
+
+.wp-block-cover .has-background-dim:not([class*="-background-color"]), .wp-block-cover-image .has-background-dim:not([class*="-background-color"]), .wp-block-cover-image.has-background-dim:not([class*="-background-color"]), .wp-block-cover.has-background-dim:not([class*="-background-color"]) {
+	background-color: transparent !important;
+  }
+
 
 /* Headings
 --------------------------------------------- */
@@ -863,6 +886,9 @@ th {
 	margin-right: 10px;
 	width: auto;
 }
+.error404 #genesis-content {
+	margin-top: 100px;
+}
 
 /* Titles
 --------------------------------------------- */
@@ -1185,6 +1211,7 @@ html:not([data-scroll="0"]) .site-header .title-area {
 .site-title a:focus,
 .site-title a:hover {
 	color: #fff !important;
+	border-bottom: none !important;
 }
 
 .header-image .title-area,
@@ -1209,6 +1236,24 @@ html:not([data-scroll="0"]) .header-image .site-title > a {
 	margin-bottom: 0;
 	text-indent: -9999px;
 }
+
+.wp-block-table th {
+	background-color: #F8F8F8;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.32px;
+	line-height: 28px;
+}
+
+
+.wp-block-table tr {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.32px;
+	line-height: 28px;
+}
+
 
 /* Site Navigation
 ---------------------------------------------------------------------------- */
