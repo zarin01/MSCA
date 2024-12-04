@@ -632,6 +632,10 @@ input[type="submit"].small,
 	margin-bottom: 15px;
 }
 
+.wp-block-button a {
+	border-bottom: none;
+}
+
 /* Tables
 --------------------------------------------- */
 table {
@@ -2058,6 +2062,33 @@ p.form-submit,
 .home-header {
 	background-color: red !important;
 }
+
+
+/* Gallery
+---------------------------------------------------------------------------- */
+.gallery-group .wp-block-column {
+	border: 1px solid rgba(0,0,0,0.2);
+	overflow: hidden;
+}
+
+.gallery-group .wp-block-column:hover {
+	border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  transition: border 300ms ease-in-out, box-shadow 300ms ease-in-out;
+  cursor: pointer;
+}
+
+
+.gallery-group .wp-block-column img {
+	max-width: 100%;
+  transform: scale(1.33971);
+  height: 175px !important;
+  width: 280px;
+  transform-origin: center top 0px;
+
+}
+
+
 
 /* Media Queries
 ---------------------------------------------------------------------------- */
