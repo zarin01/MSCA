@@ -614,7 +614,7 @@ input[type="submit"].small,
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	margin-bottom: 40px;
+	margin-bottom: 15px;
 	width: 100%;
 	word-break: break-all;
 }
@@ -632,10 +632,6 @@ th {
 
 td {
 	padding: 0.5em;
-}
-
-tr {
-	border-top: 1px solid #eee;
 }
 
 th {
@@ -1152,6 +1148,7 @@ img.alignright,
 
 html:not([data-scroll="0"]) .site-header {
 	background-color: #FFF;
+	padding: 0px 10px;
 }
 
 html:not([data-scroll="0"]) .site-header > .wrap {
@@ -1168,6 +1165,7 @@ html:not([data-scroll="0"]) .nav-secondary {
 	float: left;
 	padding: 25px 0;
 	width: 360px;
+	padding-right: 50px;
 }
 
 html:not([data-scroll="0"]) .site-header .title-area {
@@ -1221,6 +1219,7 @@ html:not([data-scroll="0"]) .header-image .site-title > a {
 #menu-main-menu {
 	width: 50%;
 	float: left;
+	padding-left: 25px;
 }
 
 .genesis-nav-menu .menu-item {
@@ -1233,7 +1232,7 @@ html:not([data-scroll="0"]) .header-image .site-title > a {
 }
 
 .genesis-nav-menu a {
-	padding: 15px 15px 0px 15px;
+	padding: 20px 10px;
 	color: rgb(0, 0, 0);
   	display: block;
   	font-family: "Josefin Sans", sans-serif;
@@ -1888,13 +1887,19 @@ p.form-submit,
 ---------------------------------------------------------------------------- */
 .site-footer {
 	background-color: #fff;
-	padding: 20px;
+	padding: 0px 20px 80px 20px;
 	text-align: right;
 	font-size: 14px;
 	font-weight: 300;
   	line-height: 1.75;
   	letter-spacing: 0.02em;
 	font-family: "Roboto", sans-serif;
+}
+
+.footer-above-parent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .site-footer,
@@ -1913,6 +1918,100 @@ p.form-submit,
 	letter-spacing: 1px;
 	margin-bottom: 0;
 	text-transform: uppercase;
+}
+
+.footer-above-widget{
+  max-width: 1300px;
+  width: 100%;
+  padding: 45px 0px 0px 0px;
+  border-top: 1px solid #eee;
+}
+
+.footer-above-widget tr td{
+	padding: 25px 0px !important;
+}
+
+.footer-above-widget .nav-links a {
+	line-height: 1.75;
+  letter-spacing: 0.02em;
+  color: #000 !important;
+	font-size: 16px;
+	opacity: .6;
+}
+
+.footer-above-button {
+	color: #ffffff !important;
+  background-color: #000000 !important;
+  width: 125px;
+  height: 50px;
+}
+
+.footer-above-button .footer-above-button-inner {
+	display: inline-block;
+  height: auto;
+  padding: 15px 32px;
+  background: transparent;
+    background-image: none;
+  background-image: none !important;
+  color: inherit;
+  letter-spacing: 0.15em;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  background-color: #000;
+}
+
+.footer-above-tr input {
+	border: none !important;
+}
+
+.footer-above-header {
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.footer-above-paragraph {
+	font-size: 14px;
+	margin: 0 auto 20px;
+	font-weight: 300;
+  line-height: 1.75;
+  letter-spacing: 0.02em;
+}
+
+.footer-above-parent a {
+	text-decoration: underline;
+}
+
+.footer-above-facebook a {
+	text-decoration: underline;
+	color: rgb(0, 0, 0);
+	opacity: .6;
+}
+
+
+/* Homepage
+---------------------------------------------------------------------------- */
+
+.home-header .home-right-column {
+	padding: 20px;
+  border-radius: 0px;
+  background-color: rgba(213,213,213,0.8);
+  border-style: None;
+  border-color: #555555;
+  border-width: 3px;
+  font-family: "Crimson Text", serif !important;
+}
+
+.home-header .wp-block-column h1,
+.home-header .wp-block-column h2,
+.home-header .wp-block-column h3 {
+  font-family: "Crimson Text", serif !important;
+}
+
+.home-header {
+	background-color: red !important;
 }
 
 /* Media Queries
@@ -1980,7 +2079,7 @@ p.form-submit,
 	}
 	.site-header .title-area,
 	html:not([data-scroll="0"]) .site-header .title-area {
-		padding: 15px 0;
+		padding: 0px 10px;
 	}
 	html:not([data-scroll="0"]) .header-image .site-title > a {
 		height: 76px;
@@ -2002,7 +2101,7 @@ p.form-submit,
 	}
 	.genesis-nav-menu a,
 	html:not([data-scroll="0"]) .site-header .genesis-nav-menu a {
-		padding: 10px;
+		padding: 0px 10px;
 	}
 	.front-page .site-inner {
 		margin-top: 0;
