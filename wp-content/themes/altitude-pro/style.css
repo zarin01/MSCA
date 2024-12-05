@@ -783,6 +783,15 @@ th {
 	padding-left: 45px !important;
 }
 
+.gallery-group .wp-block-column .alignfull {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.gallery-group .wp-block-columns {
+	gap: 25px;
+}
+
 /* Column Classes
 --------------------------------------------- */
 /* Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css */
@@ -2274,6 +2283,10 @@ letter-spacing: 0.32px
 	.front-page-7 {
 		background-attachment: scroll;
 	}
+
+	#menu-main-menu {
+		width: 60%;
+	}
 }
 
 @media only screen and (max-width: 1023px) {
@@ -2569,6 +2582,11 @@ letter-spacing: 0.32px
 
 	.above-footer-widget {
 		max-width: 100% !important;
+	}
+
+	.gallery-group .wp-block-column img{
+		width: 100% !important;
+		object-fit: contain;
 	}
 }
 
