@@ -31,11 +31,11 @@ do_action( 'genesis_before_footer' );
 			<div class="nav-links" style="text-align:center;">
 			  <strong>
 			      <a href="/">HOME</a>&nbsp; &nbsp;|&nbsp; &nbsp;
-			      <a href="/who-we-are.html">WHO WE ARE</a>&nbsp;&nbsp; |&nbsp; &nbsp;
-			      <a href="/gallery.html">GALLERY</a>&nbsp; &nbsp;|&nbsp; &nbsp;
-			      <a href="/news--events.html">NEWS &amp; EVENTS</a>&nbsp;&nbsp; |&nbsp; &nbsp;
-			      <a href="/covenants.html">COVENANTS</a>&nbsp; &nbsp;|&nbsp; &nbsp;
-			    <a href="/contact-us.html"><font size="4">CONTACT US</font></a>
+			      <a href="/who-we-are/">WHO WE ARE</a>&nbsp;&nbsp; |&nbsp; &nbsp;
+			      <a href="/gallery/">GALLERY</a>&nbsp; &nbsp;|&nbsp; &nbsp;
+			      <a href="/news-events/">NEWS &amp; EVENTS</a>&nbsp;&nbsp; |&nbsp; &nbsp;
+			      <a href="/covenants/">COVENANTS</a>&nbsp; &nbsp;|&nbsp; &nbsp;
+			    <a href="/contact-us/"><font size="4">CONTACT US</font></a>
 			  </strong>
 			</div>
 

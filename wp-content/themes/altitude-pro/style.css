@@ -1196,6 +1196,14 @@ img.alignright,
 	height: 300px;
 }
 
+#gform_wrapper_1 {
+	padding: 20px;
+}
+
+.gform_title {
+	font-weight: 700 !important;
+}
+
 /* Skip Links
 ---------------------------------------------------------------------------- */
 .genesis-skip-link {
