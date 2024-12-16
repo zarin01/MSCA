@@ -50,9 +50,8 @@
 
 @media only screen and (min-width: 1080px) {
 	.full-width-content .entry-content > .alignwide {
-		margin-left: -130px;
-		margin-right: -130px;
-		max-width: 1060px;
+		margin-left: -180px;
+		margin-right: -180px;
 		width: auto;
 	}
 	.alignfull .alignwide,

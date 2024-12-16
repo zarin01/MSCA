@@ -490,11 +490,7 @@ figure {
 /* Forms
 --------------------------------------------- */
 
-@media only screen and (min-width: 1080px) {
-	.full-width-content .entry-content > .alignwide {
-	  max-width: 1200px !important;
-	}
-  }
+
 
 
 /* Forms
@@ -753,7 +749,7 @@ th {
 .wrap {
 	float: none;
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1330px;
 }
 
 .site-inner {
@@ -1202,6 +1198,17 @@ img.alignright,
 
 .gform_title {
 	font-weight: 700 !important;
+}
+
+#gform_fields_1 input {
+  border-radius: 10px;
+  border: grey solid 1px;
+}
+
+#gform_submit_button_1 {
+	background-color: gray;
+	border-radius: 10px;
+	border: grey solid 1px;
 }
 
 /* Skip Links
