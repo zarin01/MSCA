@@ -1733,10 +1733,6 @@ text-align: center;
 
 /* Content
 --------------------------------------------- */
-.content {
-	float: left;
-	width: 700px;
-}
 
 .page .content {
 	padding-bottom: 50px;
@@ -1744,11 +1740,6 @@ text-align: center;
 
 .sidebar-content .content {
 	float: right;
-}
-
-.full-width-content .content {
-	padding: 0 200px 50px;
-	width: 100%;
 }
 
 .full-width-content.front-page .content {
@@ -2041,8 +2032,8 @@ p.form-submit,
 /* Site Footer
 ---------------------------------------------------------------------------- */
 .site-footer {
-	background-color: #fff;
-	padding: 0px 20px 80px 20px;
+	background-color: #b6c4cf;
+	padding: 10px 20px 20px 20px;
 	text-align: right;
 	font-size: 14px;
 	font-weight: 300;
@@ -2055,6 +2046,7 @@ p.form-submit,
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #eee;
 }
 
 .site-footer,
@@ -2076,14 +2068,22 @@ p.form-submit,
 }
 
 .footer-above-widget{
-  max-width: 1300px;
   width: 100%;
   padding: 45px 15px 0px 15px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #d1d1d1;
 }
 
 .footer-above-col {
 	padding: 0px 10px;
+}
+
+.footer-above-col-pay .wcustomhtml {
+	padding: 0px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
 }
 
 .footer-above-widget tr td{
@@ -2148,6 +2148,7 @@ margin-top: 15px;
 .footer-above-header {
 	font-size: 14px;
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 .footer-above-paragraph {
@@ -2283,9 +2284,7 @@ letter-spacing: 0.32px
 	.content {
 		width: 520px;
 	}
-	.full-width-content .content {
-		padding: 0 110px;
-	}
+
 	.genesis-nav-menu a {
 		padding: 30px 10px;
 	}
@@ -2362,9 +2361,7 @@ letter-spacing: 0.32px
 	.site-inner {
 		margin-top: 60px;
 	}
-	.full-width-content .content {
-		padding: 0;
-	}
+
 	.full-width-content img.pull-left {
 		margin-left: 0;
 	}

@@ -40,8 +40,8 @@ do_action( 'genesis_before_footer' );
 			</div>
 
 	
-	          <td class="footer-above-col" style="width:15.839161828918%; padding:0 15px;">
-	            <div class="footer-above-header"><em><strong>Member Dues</strong></em></div>
+	          <td class="footer-above-col-pay">
+	            <div class="footer-above-header"><strong>Buy Membership</strong></></div>
 	            <div id="936165657879808569" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
 	              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 	                <input type="hidden" name="cmd" value="_s-xclick">
@@ -52,15 +52,15 @@ do_action( 'genesis_before_footer' );
 	            </div>
 	          </td>
 	          <td class="footer-above-col" style="width:20.904737602476%; padding:0 15px;">
-	            <div class="footer-above-header"><em><strong>Email</strong></em><br></div>
+	            <div class="footer-above-header"><strong>Email</strong><br></div>
 	            <div class="footer-above-paragraph"><span style="color:rgb(31, 31, 31)"><span>bill.fortresshomeinspection@gmail.com</span></span><br><span style="color:rgb(31, 31, 31)"><span>Send email</span></span></div>
 	          </td>
 	          <td class="footer-above-col" style="width:22.616373696222%; padding:0 15px;">
-	            <div class="footer-above-header"><em><strong>Facebook</strong></em></div>
+	            <div class="footer-above-header"><strong>Facebook</strong></div>
 	            <div class="footer-above-paragraph footer-above-facebook"><a href="http://facebook.com/MountainShadowsCOS" target="_blank">/MountainShadowsCOS</a></div>
 	          </td>
 	          <td class="footer-above-col" style="width:19.939867251807%; padding:0 15px;">
-	            <div class="footer-above-header"><em><strong>E-Blasts</strong></em></div>
+	            <div class="footer-above-header"><strong>E-Blasts</strong></div>
 	            <div style="text-align:left;">
 	              <div style="height: 10px; overflow: hidden;"></div>
 	              <a class="footer-above-button footer-above-button-small footer-above-button-highlight" href="http://mscaweb.us13.list-manage.com/subscribe?u=475250ae3c4dcf7edc5d66d6d&amp;id=ba2fa1a6c1" target="_blank">
