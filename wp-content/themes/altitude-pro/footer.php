@@ -43,17 +43,15 @@ do_action( 'genesis_before_footer' );
 
       <!-- Mailing Address -->
       <div class="footer-above-col">
-        <div class="footer-above-header"><em><strong>Mailing Address</strong></em></div>
         <div class="footer-above-paragraph">
-          MSCA<br>
+		  <span class="email"><strong>bill.fortresshomeinspection@gmail.com</strong></span><br>
           PO Box 49072<br>
           Colorado Springs, CO 80949-9072<br>
         </div>
       </div>
 
-      <!-- Buy Membership -->
+	  <!-- Buy Membership -->
       <div class="footer-above-col">
-        <div class="footer-above-header"><strong>Buy Membership</strong></div>
         <div class="buy-membership">
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
@@ -64,20 +62,11 @@ do_action( 'genesis_before_footer' );
         </div>
       </div>
 
-      <!-- Email -->
-      <div class="footer-above-col">
-        <div class="footer-above-header"><strong>Email</strong></div>
-        <div class="footer-above-paragraph">
-          <span class="email">bill.fortresshomeinspection@gmail.com</span>
-        </div>
-      </div>
-
       <!-- E-Blasts -->
       <div class="footer-above-col">
-        <div class="footer-above-header"><strong>E-Blasts</strong></div>
         <div class="e-blasts">
           <a class="footer-above-button footer-above-button-small footer-above-button-highlight" href="http://mscaweb.us13.list-manage.com/subscribe?u=475250ae3c4dcf7edc5d66d6d&amp;id=ba2fa1a6c1" target="_blank">
-            <span class="footer-above-button-inner">SIGN UP</span>
+            <span class="footer-above-button-inner">E-Blasts SIGN UP</span>
           </a>
         </div>
       </div>
