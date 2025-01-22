@@ -784,6 +784,11 @@ th {
 	padding: 25px;
 }
 
+.wp-block-column .wp-block-column {
+	padding: 0px !important;
+}
+
+
 /* Column Classes
 --------------------------------------------- */
 /* Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css */
@@ -1244,6 +1249,13 @@ img.alignright,
 	flex-direction: row;
 }
 
+@media only screen and (max-width: 1050px) {
+	.site-header .wrap{
+		display: inline;
+
+	}
+}
+
 .featured-section .site-header {
 	background-color: transparent;
 }
@@ -1483,6 +1495,10 @@ html:not([data-scroll="0"]) .site-header .genesis-nav-menu a {
 --------------------------------------------- */
 .nav-primary {
 	text-align: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
 }
 
 .nav-primary .genesis-nav-menu {
@@ -2093,6 +2109,7 @@ margin-top: 15px;
 	margin-bottom: 25px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
 .footer-above-button {
@@ -2275,9 +2292,7 @@ letter-spacing: 0.32px
 	.site-header .widget-area {
 		width: 580px;
 	}
-	.content {
-		width: 520px;
-	}
+
 
 	.genesis-nav-menu a {
 		padding: 30px 10px;
@@ -2316,8 +2331,7 @@ letter-spacing: 0.32px
 	}
 	.content,
 	.sidebar,
-	.site-header .widget-area,
-	.title-area {
+	.site-header .widget-area {
 		width: 100%;
 	}
 	.site-header .title-area,
@@ -2332,9 +2346,7 @@ letter-spacing: 0.32px
 	.site-title {
 		text-align: center;
 	}
-	.header-image .site-title > a {
-		background-position: center !important;
-	}
+
 	.nav-primary .genesis-nav-menu {
 		float: none;
 	}
@@ -2390,13 +2402,15 @@ letter-spacing: 0.32px
 	}
 
 	#menu-main-menu {
-		padding: 25px 25px 0px 25px;
+		padding: 25px 5px 0px 5px;
 		width: 100%;
 	}
 }
 
 @media only screen and (max-width: 800px) {
-
+	#menu-main-menu {
+		flex-direction: column;
+	  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -2464,6 +2478,9 @@ letter-spacing: 0.32px
 	.sub-menu-toggle {
 		float: right;
 		padding: 10px;
+		margin-left: 65px;
+		margin-top: 10px;
+		padding: 0px;
 		position: absolute;
 		right: 0;
 		top: 0;
@@ -2592,6 +2609,17 @@ letter-spacing: 0.32px
 		object-fit: contain;
 	}
 }
+
+@media only screen and (max-width: 650px) {
+	.footer-columns {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 10px;
+	  }
+}
+
 
 @media only screen and (max-width: 480px) {
 	.front-page-1 .widget:first-of-type h4,
