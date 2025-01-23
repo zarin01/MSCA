@@ -788,6 +788,14 @@ th {
 	padding: 0px !important;
 }
 
+@media only screen and (min-width: 1080px) {
+	.full-width-content .entry-content > .alignwide {
+	  margin-left: 0 !important;
+	  margin-right: 0 !important;
+	  width: auto;
+	}
+  }
+
 
 /* Column Classes
 --------------------------------------------- */
