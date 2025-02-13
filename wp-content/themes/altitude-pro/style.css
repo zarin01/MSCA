@@ -207,8 +207,6 @@ ul li a {
 
 a {
 	border-bottom-color: rgba(0, 0, 0, 0.5);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
   border-spacing: 0;
   color: rgb(42, 42, 42);
   font-family: "Lato", sans-serif;
@@ -217,7 +215,7 @@ a {
   line-height: 28px;
   overflow-wrap: break-word;
   text-align: center;
-  text-decoration-color: rgb(42, 42, 42);
+  text-decoration: none !important;
 }
 
 a:focus,
@@ -737,6 +735,9 @@ th {
 
 /* Structure and Layout
 ---------------------------------------------------------------------------- */
+.padding {
+	padding: 15px;
+}
 /* Site Containers
 --------------------------------------------- */
 .site-inner,
@@ -784,9 +785,6 @@ th {
 	padding: 25px;
 }
 
-.wp-block-column .wp-block-column {
-	padding: 0px !important;
-}
 
 @media only screen and (min-width: 1080px) {
 	.full-width-content .entry-content > .alignwide {
@@ -795,6 +793,13 @@ th {
 	  width: auto;
 	}
   }
+
+@media only screen and (max-width: 1200px) and (min-width: 1023px) {
+    .site-inner {
+        margin-top: 100px !important;
+    }
+}
+
 
 
 /* Column Classes
@@ -1257,7 +1262,7 @@ img.alignright,
 	flex-direction: row;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1190px) {
 	.site-header .wrap{
 		display: inline;
 
@@ -1366,6 +1371,11 @@ html:not([data-scroll="0"]) .header-image .site-title > a {
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
+}
+
+#genesis-nav-primary .wrap {
+	margin: 0px;
+	padding: 0px;
 }
 
 .genesis-nav-menu .menu-item {
@@ -1498,6 +1508,28 @@ html:not([data-scroll="0"]) .site-header .genesis-nav-menu a {
 	padding: 0 20px 20px;
 	width: 50%;
 }
+
+.nav-btn a {
+    display: inline-block !important;
+    background-color: #3e90c2 !important;
+    color: white !important;
+    padding: 15px 15px 10px 15px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    margin-left: 20px !important;
+}
+
+html:not([data-scroll="0"]) .site-header .genesis-nav-menu li .nav-btn a{
+	padding: 15px 15px 10px 15px !important;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.nav-btn a {
+		margin-left: 0px !important;
+	}
+}
+
 
 /* Primary Navigation
 --------------------------------------------- */
@@ -2263,9 +2295,8 @@ letter-spacing: 0.32px
   overflow: hidden;
   }
 
-  .payment-options .wp-block-column p {
-	padding-left: 15px;
-	padding-right: 15px;
+  .payment-options .wp-block-column {
+	padding: 0px !important;
   }
 
   .payment-options .sponsor-column hr.wp-block-separator {
@@ -2370,7 +2401,7 @@ letter-spacing: 0.32px
 		margin-top: 0;
 	}
 	.site-inner {
-		margin-top: 60px;
+		margin-top: 5px;
 	}
 
 	.full-width-content img.pull-left {
@@ -2410,14 +2441,29 @@ letter-spacing: 0.32px
 	}
 
 	#menu-main-menu {
-		padding: 25px 5px 0px 5px;
+		padding: 25px 0px 0px 0px;
 		width: 100%;
+	}
+
+	.site-header{
+		padding: 5px;
 	}
 }
 
 @media only screen and (max-width: 800px) {
 	#menu-main-menu {
 		flex-direction: column;
+	  }
+}
+
+@media only screen and (max-width: 885px){
+	.genesis-nav-menu a, html:not([data-scroll="0"]) .site-header .genesis-nav-menu a {
+		padding: 0px 6px;
+	  }
+
+	  .nav-btn a {
+		padding: 10px 10px 10px 10px !important;
+		margin-left: 5px !important;
 	  }
 }
 
