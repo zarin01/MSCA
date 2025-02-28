@@ -44,7 +44,8 @@ do_action( 'genesis_before_footer' );
       <!-- Mailing Address -->
       <div class="footer-above-col">
         <div class="footer-above-paragraph">
-		  <span class="email"><strong>bill.fortresshomeinspection@gmail.com</strong></span><br>
+        <span><strong><a href="www.facebook.com/MountainShadowsCOS">Facebook MountainShadowsCOS</a></strong></span><br>
+		    <span class="email"><strong>bill.fortresshomeinspection@gmail.com</strong></span><br>
           PO Box 49072<br>
           Colorado Springs, CO 80949-9072<br>
         </div>
